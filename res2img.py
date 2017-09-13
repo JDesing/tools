@@ -602,7 +602,7 @@ with open(fileName, mode='rb') as file: # b is important -> binary
 	if fileHeader != "HMRES":
 	    print "file isn't a resource file. Exiting"
 	    os.exit(1)
-	print "file is a Haumi resource file"
+	print "file is a Huami resource file"
 	print "version %d" % version
 
 	buf = [ ord(elem) for elem in fileContent[0x10:0x10+4]]
